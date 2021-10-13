@@ -22,13 +22,17 @@ Then change them to your tailored configs. You can ignore update ssl files.
 
 Clone it accordingly to `./laravel/src` and `./nuxtjs/src`
 
-3. Run your project
+3. Config nuxtjs
+
+Normally you would set private laravel url (local url to laravel) to `http://nginx:8000`
+
+4. Run your project
 
 ```command
     docker-compose up -d
 ```
 
-3. Instantiate laravel
+5. Instantiate laravel
 
 ```command
     docker-compose exec laravel composer install --ignore-platform-reqs
