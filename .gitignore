@@ -1,0 +1,6 @@
+nuxtjs/src/**
+laravel/src/**
+nginx/log/**
+nginx/ssl/**
+.env
+.docker-compose.yml
