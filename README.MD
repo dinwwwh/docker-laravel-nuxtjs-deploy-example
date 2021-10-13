@@ -13,7 +13,7 @@ About `nuxtjs` it auto generate and start app. Then when update `nuxtjs` src you
 ```command
     cp ./.env.example ./.env
     cp ./docker-compose.example.yml ./docker-compose.yml
-    cp ./nginx/ssl-example ./nginx/ssl
+    cp -r ./nginx/ssl-example ./nginx/ssl
 ```
 
 Then change them to your tailored configs. You can ignore update ssl files.
